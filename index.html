@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment foarm</title>
+    <link rel="stylesheet" href="foarm.css">
+</head>
+<body>
+  <div class="main">
+<form action="">
+                <h1 class="main_head">  <u> PAYMENT FOARM </u> </h1>
+                <hr>
+                
+                 <h2> CONTACT INFO </h2>
+                 <p> NAME : <input type="text" name="name" required  placeholder="ENTER YOUR NAME"></p>
+                 <fieldset>
+                 <p>
+
+                    <legend> <u>SELECT YOUR GENDER </u></legend>
+                     <br>
+                      MALE <input type="radio"  name="GENDER" id=" MALE">
+                      
+                     FEMALE <input type="radio" name="GENDER" id="FEMALE">
+                    
+                      OTERS <input type="radio" name="GENDER" id="OTERS">
+
+                    
+                 </p>
+                </fieldset>
+                 <p>
+                   Address: <textarea name="Address" id="Address" cols="100" rows="7" required   placeholder="XYZ COLONY,ABC STATE,DFG COUNTRY"></textarea>
+                 </p>
+                 <p>
+                    EMAIL: <input type="email" name="email" id="email" required  placeholder="abc@gmail.com" >
+                 </p>
+                 <p>
+                    PINCODE: <input type="number" name="PINCODE" id="PINCODE" required  placeholder="12642" >
+                 </p>
+                 <hr>
+                 
+<h2>PAYMENT INFO </h2>
+<p>
+    CARD TYPE :
+    <select name=" CARD TYPE :" id=" CARD TYPE :" required >
+           <option value="">---SELECT A CARD TYPE---</option>
+           <option value="RUPAY">RUPAY</option>
+           <option value="VISA">VISA</option>
+           <option value="MASTERCARD">MASTERCARD</option>
+           <option value="OTHER">OTHER</option>
+
+    </select>
+
+</p>
+<p  class="hlo">
+  CARD NO :
+  <input type="number"name="cnumber" id="cnumber"   placeholder=" for ex 0212021021" >
+</p>
+<p>
+    EXIRATION DATE:
+    <input type="date" name="EXP_DATE" id="EXP_DATE" required  >
+</p>
+<p>
+    CVV:
+    <input type="password" name="cvv" id="cvv" required   placeholder=" for ex 121212" >
+
+<br>
+
+<input type="submit"  value="Pay now" >
+
+</p>
+<hr>
+
+
+</form>
+</div>
+</body>
+</html>
